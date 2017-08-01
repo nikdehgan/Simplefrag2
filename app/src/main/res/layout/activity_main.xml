@@ -29,7 +29,8 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:onClick="addFrag"
-        tools:layout_editor_absoluteY="455dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp" />
     <Button
         android:id="@+id/buttonremoveFrag"
         android:layout_width="wrap_content"
